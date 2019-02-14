@@ -1,0 +1,25 @@
+
+{
+  "name": "dn-data-stat-qq",
+  "description": "script framework",
+  "type": "framework",
+  "keywords": [
+    "php", "php framework"
+  ],
+  "require": {
+    "php": ">=7.1.4",
+    "vlucas/phpdotenv": "^2.5",
+    "monolog/monolog": "^1.24"
+  },
+  "autoload": {
+    "files": [
+      "common/constant.php"
+    ]
+  },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://packagist.phpcomposer.com"
+    }
+  }
+}
